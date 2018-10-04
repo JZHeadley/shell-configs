@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jzheadley/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(yum screen git docker thefuck nyan adb zsh-autosuggestions zsh-wakatime sprunge)
+plugins=(yum screen git docker adb zsh-autosuggestions zsh-wakatime sprunge)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,11 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias la="exa -la"
-alias ls="exa"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 
-# tabtab source for jhipster package
-# uninstall by removing these lines or running `tabtab uninstall jhipster`
-[[ -f /home/jzheadley/Downloads/mirandaweb/node_modules/tabtab/.completions/jhipster.zsh ]] && . /home/jzheadley/Downloads/mirandaweb/node_modules/tabtab/.completions/jhipster.zsh
