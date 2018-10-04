@@ -15,7 +15,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'Chiel92/vim-autoformat'
 
 " YouCompleteMe Plug for Code Completion
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 
 " Adds some nice vim defaults
 Plug 'tpope/vim-sensible'
@@ -40,7 +40,7 @@ Plug 'scrooloose/syntastic'
 Plug 'rust-lang/rust.vim'
 
 " Wakatime
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 
@@ -144,7 +144,7 @@ nnoremap <C-t> :tabnew<CR>
 inoremap <C-t> :tabnew<CR>
 
 " Autoformat on fileSave
-autocmd FileType * if &ft!="yaml" | BufWrite * :Autoformat
+" autocmd FileType * if &ft!="yaml" | BufWrite * :Autoformat
 autocmd FileType c map <F3> :!make <CR>
 autocmd FileType c map <F4> :!make run<CR>
 autocmd FileType c map <F5> :!make clean<CR>
